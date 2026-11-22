@@ -1,0 +1,6 @@
+{
+  "name": "ECG Interactive Lecture — Dr. Ahmed Nabil",
+  "description": "محاضرة تفاعلية ثلاثية الأبعاد لشرح تخطيط القلب الكهربائي (ECG) — تقديم Dr. Ahmed Nabil وإشراف Dr. Ahmed Abdelhafez",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
