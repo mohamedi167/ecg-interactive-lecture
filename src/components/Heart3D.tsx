@@ -222,7 +222,7 @@ export const Heart3D: React.FC<Heart3DProps> = ({
 
     const loader = new GLTFLoader();
     loader.load(
-      '/models/heart.glb',
+      `${import.meta.env.BASE_URL}models/heart.glb`,
       (gltf) => {
         const model = gltf.scene;
         // Center and normalize to ~2.85 world height

@@ -373,7 +373,7 @@ export const BodyLeads3D: React.FC<BodyLeads3DProps> = ({
 
     // Load Z-Anatomy Human Body & Thoracic Skeleton
     loader.load(
-      '/models/human_body.glb',
+`${import.meta.env.BASE_URL}models/human_body.glb`,
       (gltf) => {
         gltf.scene.traverse((child) => {
           if ((child as THREE.Mesh).isMesh) {
@@ -397,7 +397,7 @@ export const BodyLeads3D: React.FC<BodyLeads3DProps> = ({
     );
 
     loader.load(
-      '/models/thoracic_skeleton.glb',
+      `${import.meta.env.BASE_URL}models/thoracic_skeleton.glb`,
       (gltf) => {
         gltf.scene.traverse((child) => {
           if ((child as THREE.Mesh).isMesh) {
